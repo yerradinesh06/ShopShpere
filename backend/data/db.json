@@ -1,0 +1,459 @@
+{
+  "users": [
+    {
+      "_id": "user_admin_0000000000000",
+      "name": "Admin User",
+      "email": "admin@shopsphere.com",
+      "password": "$2a$10$ha5uB4cRAC6IxXvRrdMToOPr05wWWpkaKNpH9MARgEKXt4W8YjCj6",
+      "isAdmin": true,
+      "createdAt": "2026-07-07T06:41:44.770Z",
+      "updatedAt": "2026-07-07T06:41:44.770Z"
+    },
+    {
+      "_id": "user_buyer_0000000000000",
+      "name": "John Doe",
+      "email": "john@gmail.com",
+      "password": "$2a$10$ha5uB4cRAC6IxXvRrdMToOHt0T.xgBC/aueWXluxi5PPBiWzmBVJ6",
+      "isAdmin": false,
+      "createdAt": "2026-07-07T06:41:44.770Z",
+      "updatedAt": "2026-07-07T06:41:44.770Z"
+    },
+    {
+      "_id": "4ho6fyo71mraaiuz3",
+      "createdAt": "2026-07-07T06:51:11.055Z",
+      "updatedAt": "2026-07-07T06:51:11.055Z",
+      "name": "dinesh",
+      "email": "yarradinesh06@gmail.com",
+      "password": "$2a$10$g/n66x92dfXuwcLO1izDTOc5h.Zr0bT.rW3Rphg2q6npfKVUjyDHS",
+      "isAdmin": false
+    },
+    {
+      "_id": "vjmy50ssjmrabfjxr",
+      "createdAt": "2026-07-07T07:16:36.399Z",
+      "updatedAt": "2026-07-07T07:16:36.399Z",
+      "name": " DINESH",
+      "email": "dinesh123587@gmail.com",
+      "password": "$2a$10$a2GduEy8myKICu6CB5ihFOfalkH1IxHPUTe.PghkoCn/mcEt8LFJS",
+      "isAdmin": false
+    }
+  ],
+  "products": [
+    {
+      "_id": "prod_1_0000000000000",
+      "name": "Aura Sound Max Headphones",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&auto=format&fit=crop&q=80",
+      "description": "Experience pure audio bliss with Aura Sound Max. Features Active Noise Cancellation, high-fidelity spatial audio, 40-hour battery life, and ultra-comfortable memory foam ear cushions.",
+      "brand": "Aura",
+      "category": "Audio",
+      "price": 199.99,
+      "countInStock": 15,
+      "rating": 4.8,
+      "numReviews": 4,
+      "reviews": [
+        {
+          "_id": "rev_prod_1_0000000000000_0",
+          "name": "Alice Smith",
+          "rating": 5,
+          "comment": "Absolutely amazing sound! The active noise cancellation is top notch.",
+          "user": "user_buyer_0000000000000",
+          "createdAt": "2026-07-07T06:41:44.771Z",
+          "updatedAt": "2026-07-07T06:41:44.771Z"
+        },
+        {
+          "_id": "rev_prod_1_0000000000000_1",
+          "name": "Bob Johnson",
+          "rating": 4,
+          "comment": "Very comfortable for long working hours. Highs and mids are great.",
+          "user": "user_buyer_0000000000000",
+          "createdAt": "2026-07-07T06:41:44.771Z",
+          "updatedAt": "2026-07-07T06:41:44.771Z"
+        },
+        {
+          "_id": "rev_prod_1_0000000000000_2",
+          "name": "Charlie Davis",
+          "rating": 5,
+          "comment": "Battery life is unbelievable. Easily lasts for a full week.",
+          "user": "user_buyer_0000000000000",
+          "createdAt": "2026-07-07T06:41:44.771Z",
+          "updatedAt": "2026-07-07T06:41:44.771Z"
+        },
+        {
+          "_id": "rev_prod_1_0000000000000_3",
+          "name": "David Miller",
+          "rating": 5,
+          "comment": "Premium feel and clean design. Totally worth the money.",
+          "user": "user_buyer_0000000000000",
+          "createdAt": "2026-07-07T06:41:44.771Z",
+          "updatedAt": "2026-07-07T06:41:44.771Z"
+        }
+      ],
+      "createdAt": "2026-07-07T06:41:44.771Z",
+      "updatedAt": "2026-07-07T06:41:44.771Z"
+    },
+    {
+      "_id": "prod_2_0000000000000",
+      "name": "Chronos Watch S",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&auto=format&fit=crop&q=80",
+      "description": "A premium smart wearable tracking your heart rate, sleep cycles, blood oxygen levels, and workouts. Equipped with a brilliant curved AMOLED always-on display and up to 10 days of battery life.",
+      "brand": "Chronos",
+      "category": "Wearables",
+      "price": 249.99,
+      "countInStock": 8,
+      "rating": 4.5,
+      "numReviews": 2,
+      "reviews": [
+        {
+          "_id": "rev_prod_2_0000000000000_0",
+          "name": "Emma Wilson",
+          "rating": 5,
+          "comment": "Best smart watch I have owned. Sleep tracking is incredibly accurate.",
+          "user": "user_buyer_0000000000000",
+          "createdAt": "2026-07-07T06:41:44.771Z",
+          "updatedAt": "2026-07-07T06:41:44.771Z"
+        },
+        {
+          "_id": "rev_prod_2_0000000000000_1",
+          "name": "Frank Harris",
+          "rating": 4,
+          "comment": "Looks beautiful and has nice faces, but notification sync can lag occasionally.",
+          "user": "user_buyer_0000000000000",
+          "createdAt": "2026-07-07T06:41:44.771Z",
+          "updatedAt": "2026-07-07T06:41:44.771Z"
+        }
+      ],
+      "createdAt": "2026-07-07T06:41:44.771Z",
+      "updatedAt": "2026-07-07T06:41:44.771Z"
+    },
+    {
+      "_id": "prod_3_0000000000000",
+      "name": "Keeb Vibe Mechanical Keyboard",
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80",
+      "description": "An enthusiast-grade mechanical keyboard featuring hot-swappable tactile linear switches, double-shot PBT custom keycaps, robust aluminum casing, and pre-lubed stabilizers with dynamic per-key RGB backlighting.",
+      "brand": "KeebVibe",
+      "category": "Accessories",
+      "price": 129.99,
+      "countInStock": 20,
+      "rating": 4.7,
+      "numReviews": 3,
+      "reviews": [
+        {
+          "_id": "rev_prod_3_0000000000000_0",
+          "name": "Grace Lee",
+          "rating": 5,
+          "comment": "The sound profile is marvelous! Out of the box, it is super thocky.",
+          "user": "user_buyer_0000000000000",
+          "createdAt": "2026-07-07T06:41:44.771Z",
+          "updatedAt": "2026-07-07T06:41:44.771Z"
+        },
+        {
+          "_id": "rev_prod_3_0000000000000_1",
+          "name": "Henry Clark",
+          "rating": 4,
+          "comment": "Solid build quality. Software is a bit clunky, but keyboard works flawlessly.",
+          "user": "user_buyer_0000000000000",
+          "createdAt": "2026-07-07T06:41:44.771Z",
+          "updatedAt": "2026-07-07T06:41:44.771Z"
+        },
+        {
+          "_id": "rev_prod_3_0000000000000_2",
+          "name": "Ivy Lewis",
+          "rating": 5,
+          "comment": "Typing on this is pure joy. Best keyboard I have ever owned!",
+          "user": "user_buyer_0000000000000",
+          "createdAt": "2026-07-07T06:41:44.771Z",
+          "updatedAt": "2026-07-07T06:41:44.771Z"
+        }
+      ],
+      "createdAt": "2026-07-07T06:41:44.771Z",
+      "updatedAt": "2026-07-07T06:41:44.771Z"
+    },
+    {
+      "_id": "prod_4_0000000000000",
+      "name": "Apex Ergo Lumbar Chair",
+      "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?w=600&auto=format&fit=crop&q=80",
+      "description": "Reclaim your comfort with the Apex Ergo. Designed with adaptive automatic lumbar support, 3D adjustable armrests, premium high-elasticity mesh backing, and multi-angle reclining lock states.",
+      "brand": "Apex",
+      "category": "Furniture",
+      "price": 349.99,
+      "countInStock": 4,
+      "rating": 4.6,
+      "numReviews": 3,
+      "reviews": [
+        {
+          "_id": "rev_prod_4_0000000000000_0",
+          "name": "Jack Martin",
+          "rating": 5,
+          "comment": "No more back pain after 8 hours of coding. Fantastic ergonomic adjustments.",
+          "user": "user_buyer_0000000000000",
+          "createdAt": "2026-07-07T06:41:44.771Z",
+          "updatedAt": "2026-07-07T06:41:44.771Z"
+        },
+        {
+          "_id": "rev_prod_4_0000000000000_1",
+          "name": "Karen Wright",
+          "rating": 4,
+          "comment": "Sturdy and heavy. Assembly took about 30 minutes, but it is extremely comfortable.",
+          "user": "user_buyer_0000000000000",
+          "createdAt": "2026-07-07T06:41:44.771Z",
+          "updatedAt": "2026-07-07T06:41:44.771Z"
+        },
+        {
+          "_id": "rev_prod_4_0000000000000_2",
+          "name": "Leo Scott",
+          "rating": 5,
+          "comment": "Brilliant mesh quality. Keeps me cool during hot summer days.",
+          "user": "user_buyer_0000000000000",
+          "createdAt": "2026-07-07T06:41:44.771Z",
+          "updatedAt": "2026-07-07T06:41:44.771Z"
+        }
+      ],
+      "createdAt": "2026-07-07T06:41:44.771Z",
+      "updatedAt": "2026-07-07T06:41:44.771Z"
+    },
+    {
+      "_id": "prod_5_0000000000000",
+      "name": "VoltPad Duo Wireless Dock",
+      "image": "https://images.unsplash.com/photo-1622445262465-2481c4574875?w=600&auto=format&fit=crop&q=80",
+      "description": "A sleek, dual-device fast wireless charging dock wrapped in premium textured fabric. Emits up to 15W of power for smartphones, watch interfaces, and wireless earbuds simultaneously.",
+      "brand": "VoltPad",
+      "category": "Accessories",
+      "price": 49.99,
+      "countInStock": 30,
+      "rating": 4.3,
+      "numReviews": 3,
+      "reviews": [
+        {
+          "_id": "rev_prod_5_0000000000000_0",
+          "name": "Mia Young",
+          "rating": 4,
+          "comment": "Charges phone and AirPods quickly. The fabric design looks great on my desk.",
+          "user": "user_buyer_0000000000000",
+          "createdAt": "2026-07-07T06:41:44.771Z",
+          "updatedAt": "2026-07-07T06:41:44.771Z"
+        },
+        {
+          "_id": "rev_prod_5_0000000000000_1",
+          "name": "Noah Allen",
+          "rating": 4,
+          "comment": "Works well, but you have to position the phone carefully to trigger charge.",
+          "user": "user_buyer_0000000000000",
+          "createdAt": "2026-07-07T06:41:44.771Z",
+          "updatedAt": "2026-07-07T06:41:44.771Z"
+        },
+        {
+          "_id": "rev_prod_5_0000000000000_2",
+          "name": "Olivia Adams",
+          "rating": 5,
+          "comment": "Looks premium, keeps cables off my nightstand. Highly recommend!",
+          "user": "user_buyer_0000000000000",
+          "createdAt": "2026-07-07T06:41:44.771Z",
+          "updatedAt": "2026-07-07T06:41:44.771Z"
+        }
+      ],
+      "createdAt": "2026-07-07T06:41:44.771Z",
+      "updatedAt": "2026-07-07T06:41:44.771Z"
+    },
+    {
+      "_id": "prod_6_0000000000000",
+      "name": "Nomad Tech Backpack 25L",
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&auto=format&fit=crop&q=80",
+      "description": "Designed for modern tech nomads. Featuring water-repellent Cordura fabric, a padded lay-flat laptop compartment fitting up to 16-inch laptops, hidden security pockets, and magnetic chest straps.",
+      "brand": "Nomad",
+      "category": "Travel",
+      "price": 89.99,
+      "countInStock": 12,
+      "rating": 4.8,
+      "numReviews": 2,
+      "reviews": [
+        {
+          "_id": "rev_prod_6_0000000000000_0",
+          "name": "Paul Baker",
+          "rating": 5,
+          "comment": "Tons of compartments, amazing design. Extremely comfortable straps.",
+          "user": "user_buyer_0000000000000",
+          "createdAt": "2026-07-07T06:41:44.771Z",
+          "updatedAt": "2026-07-07T06:41:44.771Z"
+        },
+        {
+          "_id": "rev_prod_6_0000000000000_1",
+          "name": "Quinn Nelson",
+          "rating": 4,
+          "comment": "Great materials. A bit stiff at first, but breaks in nicely.",
+          "user": "user_buyer_0000000000000",
+          "createdAt": "2026-07-07T06:41:44.771Z",
+          "updatedAt": "2026-07-07T06:41:44.771Z"
+        }
+      ],
+      "createdAt": "2026-07-07T06:41:44.771Z",
+      "updatedAt": "2026-07-07T06:41:44.771Z"
+    },
+    {
+      "_id": "prod_7_0000000000000",
+      "name": "Lumi Aurora Ambience Lamp",
+      "image": "https://images.unsplash.com/photo-1507646227500-4d389b0012be?w=600&auto=format&fit=crop&q=80",
+      "description": "Bring dynamic color to your setup. A smart ambient light projecting over 16 million colors, syncing to screen colors or music rhythms. Controllable via mobile application, Google Home, and Alexa.",
+      "brand": "Lumi",
+      "category": "Lifestyle",
+      "price": 69.99,
+      "countInStock": 2,
+      "rating": 4.2,
+      "numReviews": 2,
+      "reviews": [
+        {
+          "_id": "rev_prod_7_0000000000000_0",
+          "name": "Ruby Carter",
+          "rating": 4,
+          "comment": "Very bright and color sync mode is cool for watching movies.",
+          "user": "user_buyer_0000000000000",
+          "createdAt": "2026-07-07T06:41:44.771Z",
+          "updatedAt": "2026-07-07T06:41:44.771Z"
+        },
+        {
+          "_id": "rev_prod_7_0000000000000_1",
+          "name": "Samuel Perez",
+          "rating": 4,
+          "comment": "Good quality, but app interface can be slightly confusing to connect to Wi-Fi.",
+          "user": "user_buyer_0000000000000",
+          "createdAt": "2026-07-07T06:41:44.771Z",
+          "updatedAt": "2026-07-07T06:41:44.771Z"
+        }
+      ],
+      "createdAt": "2026-07-07T06:41:44.771Z",
+      "updatedAt": "2026-07-07T06:41:44.771Z"
+    },
+    {
+      "_id": "prod_8_0000000000000",
+      "name": "Ember Smart Thermal Mug V2",
+      "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=600&auto=format&fit=crop&q=80",
+      "description": "Never drink cold coffee again. This smart, temperature-controlled ceramic thermal mug keeps your beverage at your exact preferred temperature (120°F - 145°F) for up to 80 minutes or all day on the charging coaster.",
+      "brand": "Ember",
+      "category": "Lifestyle",
+      "price": 119.99,
+      "countInStock": 18,
+      "rating": 4.75,
+      "numReviews": 4,
+      "reviews": [
+        {
+          "_id": "rev_prod_8_0000000000000_0",
+          "name": "Tyler Ross",
+          "rating": 5,
+          "comment": "A luxury item, but if you sit at a desk all day drinking tea or coffee, it is a game changer.",
+          "user": "user_buyer_0000000000000",
+          "createdAt": "2026-07-07T06:41:44.771Z",
+          "updatedAt": "2026-07-07T06:41:44.771Z"
+        },
+        {
+          "_id": "rev_prod_8_0000000000000_1",
+          "name": "Victoria Wood",
+          "rating": 4,
+          "comment": "Keeps drink perfectly hot. Battery life without the coaster is a bit short.",
+          "user": "user_buyer_0000000000000",
+          "createdAt": "2026-07-07T06:41:44.771Z",
+          "updatedAt": "2026-07-07T06:41:44.771Z"
+        },
+        {
+          "_id": "rev_prod_8_0000000000000_2",
+          "name": "Wyatt Ward",
+          "rating": 5,
+          "comment": "Perfect gift for office workers. Software works great.",
+          "user": "user_buyer_0000000000000",
+          "createdAt": "2026-07-07T06:41:44.771Z",
+          "updatedAt": "2026-07-07T06:41:44.771Z"
+        },
+        {
+          "name": "dinesh",
+          "rating": 5,
+          "comment": "good",
+          "user": "4ho6fyo71mraaiuz3"
+        }
+      ],
+      "createdAt": "2026-07-07T06:41:44.771Z",
+      "updatedAt": "2026-07-07T06:41:44.771Z"
+    }
+  ],
+  "orders": [
+    {
+      "_id": "order_1_0000000000000",
+      "user": "user_buyer_0000000000000",
+      "orderItems": [
+        {
+          "_id": "order_item_1",
+          "name": "Aura Sound Max Headphones",
+          "qty": 1,
+          "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&auto=format&fit=crop&q=80",
+          "price": 199.99,
+          "product": "prod_1_0000000000000"
+        },
+        {
+          "_id": "order_item_2",
+          "name": "Keeb Vibe Mechanical Keyboard",
+          "qty": 2,
+          "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=80",
+          "price": 129.99,
+          "product": "prod_3_0000000000000"
+        }
+      ],
+      "shippingAddress": {
+        "address": "123 Tech Lane",
+        "city": "Silicon Valley",
+        "postalCode": "94025",
+        "country": "USA"
+      },
+      "paymentMethod": "Stripe",
+      "paymentResult": {
+        "id": "ch_mock_123456",
+        "status": "succeeded",
+        "update_time": "2026-07-07T06:41:44.771Z",
+        "email_address": "john@gmail.com"
+      },
+      "itemsPrice": 459.97,
+      "shippingPrice": 0,
+      "taxPrice": 38.99,
+      "totalPrice": 498.96000000000004,
+      "isPaid": true,
+      "paidAt": "2026-07-02T06:41:44.771Z",
+      "isDelivered": true,
+      "deliveredAt": "2026-07-04T06:41:44.771Z",
+      "status": "Delivered",
+      "createdAt": "2026-07-02T06:41:44.771Z",
+      "updatedAt": "2026-07-04T06:41:44.771Z"
+    },
+    {
+      "_id": "order_2_0000000000000",
+      "user": "user_buyer_0000000000000",
+      "orderItems": [
+        {
+          "_id": "order_item_3",
+          "name": "Chronos Watch S",
+          "qty": 1,
+          "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&auto=format&fit=crop&q=80",
+          "price": 249.99,
+          "product": "prod_2_0000000000000"
+        }
+      ],
+      "shippingAddress": {
+        "address": "456 Cyber Drive",
+        "city": "Metropolis",
+        "postalCode": "10001",
+        "country": "USA"
+      },
+      "paymentMethod": "Stripe",
+      "paymentResult": {
+        "id": "ch_mock_789012",
+        "status": "succeeded",
+        "update_time": "2026-07-07T06:41:44.771Z",
+        "email_address": "john@gmail.com"
+      },
+      "itemsPrice": 249.99,
+      "shippingPrice": 15,
+      "taxPrice": 22.5,
+      "totalPrice": 287.49,
+      "isPaid": true,
+      "paidAt": "2026-07-06T06:41:44.771Z",
+      "isDelivered": false,
+      "status": "Processing",
+      "createdAt": "2026-07-06T06:41:44.771Z",
+      "updatedAt": "2026-07-06T06:41:44.771Z"
+    }
+  ]
+}
