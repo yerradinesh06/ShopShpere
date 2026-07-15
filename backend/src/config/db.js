@@ -12,7 +12,9 @@ const connectDB = async () => {
 
   try {
     // Fix for DNS SRV resolution issues on Windows/Node.js
-    require('dns').setServers(['8.8.8.8', '8.8.4.4']);
+    if (process.platform === 'win32') {
+      require('dns').setServers(['8.8.8.8', '8.8.4.4']);
+    }
     
     const conn = await mongoose.connect(mongoURI, {
       serverSelectionTimeoutMS: 5000 // Increased timeout for proper connection

@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: shopsphere-backend
+    env: node
+    plan: free
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: 5000
+      - key: MONGODB_URI
+        sync: false # The user will be prompted to enter their MongoDB Atlas connection URI during deployment
+      - key: JWT_SECRET
+        generateValue: true # Render will automatically generate a secure 256-bit secret key
